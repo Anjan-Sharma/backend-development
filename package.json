@@ -1,19 +1,23 @@
 {
-  "name": "backend-development",
-  "version": "1.0.0",
-  "description": "A repo where I practice my backend development skills .",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Anjan-Sharma/backend-development.git"
-  },
-  "author": "Anjan Sharma",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Anjan-Sharma/backend-development/issues"
-  },
-  "homepage": "https://github.com/Anjan-Sharma/backend-development#readme"
+	"name": "backend-development",
+	"version": "1.0.0",
+	"description": "A repo where I practice my backend development skills .",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Anjan-Sharma/backend-development.git"
+	},
+	"author": "Anjan Sharma",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Anjan-Sharma/backend-development/issues"
+	},
+	"homepage": "https://github.com/Anjan-Sharma/backend-development#readme",
+	"dependencies": {
+		"nodemon": "^3.0.1"
+	}
 }
