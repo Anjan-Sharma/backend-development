@@ -18,6 +18,7 @@
 	},
 	"homepage": "https://github.com/Anjan-Sharma/backend-development#readme",
 	"dependencies": {
-		"nodemon": "^3.0.1"
+		"nodemon": "^3.0.1",
+		"prettier": "^3.0.3"
 	}
 }
